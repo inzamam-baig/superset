@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d0d0d0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*top boxes*/
+.navbar {
+  display: none;
+}
+.dashboard-component-chart-holder {
+  padding: 8px;
+}
+.background--transparent {
+  background-color: white;
+  padding: 10px;
+}
+.dashboard-component-chart-holder.fade-out {
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+/*this is title color*/
+.editable-title {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 0px 0px;
+}
+
+/*this is title color*/
+
+.table > caption + thead > tr:first-child > td,
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > td,
+.table > thead:first-child > tr:first-child > th {
+  background-color: #f7f8fa;
+  padding: 13px;
+}
+/*Whole Background*/
+.dashboard-content {
+  background-color: #f7f8fa;
+}
+/*Whole boxes marging*/
+
+.dashboard-component-chart-holder.fade-out {
+  margin: 10px;
+}
+/*boxes overflow*/
+.css-hpzjpw {
+  overflow: hidden !important;
+}
+.css-1frknmv th svg {
+  color: #757575 !important;
+  bottom: 0.5rem !important;
+}
+.table {
+  border: solid 1.5px #d0d8db;
+}
+
+.subheader-line {
+  font-size: 122px;
+}
+
+.filter-container label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Grayscale/Gray-800 */
+
+  color: #121d2d;
+  text-transform: capitalize;
+}
+
+.css-pjwk6q.label-default {
+  width: fit-content;
+  height: 48px;
+  border: none;
+  /*text-alignment: center;*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #f5f5f5;
+  border-radius: 4px;
+  /* Inside Auto Layout */
+  margin: 08px 0px;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #757575 !important;
+}
+
+.filter-container .filter-badge-container {
+  width: 0;
+  padding-right: 0;
+  display: none;
+}
+
+.filter-container label {
+  margin-left: 0;
+}
+
+.dashboard .chart-header {
+  font-size: 0;
+  font-weight: 100;
+  margin-bottom: 0;
+
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: 140%;
+}
+
+/*.editable-titile > input {*/
+/*  margin: 0px 16px;*/
+/*}*/
+
+.css-pjwk6q.label-default {
+  margin-top: 0;
+}
+
+.resizable-container {
+  width: 1142px;
+  min-height: auto !important;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px #e6eaf0;
+  margin: 16px 0px;
+  padding-left: 16px;
+}
+
+.background--transparent {
+  padding: 0;
+  background: none;
+}
+
+.header-line {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 140% !important;
+  align-items: center;
+  color: #424242 !important;
+  /* border-color: #fff; */
+}
+
+.dashboard-component-chart-holder {
+  /*width: 177px;*/
+  height: 131px;
+  border-radius: 4px;
+  border-color: #ffffff;
+}
+
+.dashboard-component.dashboard-component-chart-holder.fade-out {
+  border-color: #fff;
+}
+
+.subheader-line {
+  width: 32px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  align-items: center;
+  color: #757575;
+  margin: 0px 0px;
+  margin-top: 8px;
+}
+
+.dashboard-filter-indicators-container .indicator-container {
+  display: none;
+}
+
+/*.css-pjwk6q.label-default{*/
+/*  width: 100%;*/
+/*}*/
+
+.dashboard-component.dashboard-component-chart-holder.fade-out {
+  border-color: #fff;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.form-control.input-sm {
+  background: #f5f5f5;
+  border-radius: 4px;
+  border: none;
+  width: auto;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.dt-global-filter {
+  color: #fff;
+}
+
+.editable-title {
+  color: #757575;
+}
+
+table thead tr th {
+  text-transform: capitalize;
+}
+
+table tbody tr td {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #121d2d;
+}
+
+#GRID_ID-pane-0
+  > div
+  > div
+  > div:nth-child(5)
+  > div
+  > div.grid-row.background--transparent
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div.chart-header
+  > div
+  > span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #121d2d !important;
+}
+
+#GRID_ID-pane-0
+  > div
+  > div
+  > div:nth-child(4)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div.chart-header
+  > div
+  > span
+  > input[type="button"] {
+  color: #121d2d !important;
+}
+
+table tr th svg {
+  position: static;
+  margin-left: 6px;
+}
+
+.control-label {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #121d2d;
+  text-transform: uppercase;
+}
+
+.subheader-line {
+  display: none;
+}
+
+table thead tr th svg {
+  position: absolute;
+  /*bottom: 15px ;*/
+  /*right: 0.7px ;*/
+  top: 15px;
+  /*left: 10px;*/
+  /*background: red;*/
+}
+
+.Select__control.css-b4vk9g-control-DEFAULT_STYLES {
+  min-height: 28px;
+  outline: 0px !important;
+  user-select: auto;
+  box-sizing: border-box;
+  white-space: nowrap;
+  vertical-align: baseline;
+  padding: 0.35em 0.8em;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 4px;
+  margin: 08px 0px;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #757575 !important;
+  margin-top: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  overflow: hidden;
+  text-align: left;
+}
+
+.css-1frknmv th svg {
+  color: rgb(204, 204, 204);
+  position: static;
+  bottom: 0px;
+  right: 0px;
+}
+
+table tbody tr td {
+  height: 48px;
+  padding-left: 16px !important;
+  background: none !important;
+}
+
+table th svg {
+  color: rgb(204, 204, 204);
+  position: static;
+  bottom: 0 px;
+  right: 0 px;
+}
+
+.css-1frknmv th svg {
+  color: rgb(204, 204, 204);
+  position: static !important;
+  bottom: 0 px !important;
+  right: 0 px !important;
+}
+
+.dashboard-component.dashboard-component-chart-holder {
+  background: none;
+}
+
+.dashboard-component-header.header-large .editable-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #121d2d !important;
+}
+
+/*remove this when publishing dashboard*/
+
+.dashboard-header .label-default {
+  display: none;
+}
+
+input[value="Transactions Time Period"] {
+  display: none;
+}
+
+.fave-unfave-icon {
+  display: none;
+}
+
+.pointer.label-undefined.css-pjwk6q.label.label-default::after {
+  font-family: fontAwesome;
+  content: "\00a0\00a0\00a0\00a0\f078";
+  color: #757575;
+}
+
+.chart-header {
+  padding-top: 24px;
+}
+
+.editable-title input[value="Transactions Across Channels"] {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #121d2d !important;
+}
+
+.editable-title input[value="Composition of Users"] {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #121d2d !important;
+}
+
+svg g g g g g g g rect {
+  /* chart width */
+  /* width: 19px; */
+}
+
+table tbody tr td {
+  border-bottom: 1px solid #eeeeee !important;
+  border-top: none;
+  vertical-align: middle;
+}
+
+table thead tr th {
+  background-color: #fafafa !important;
+}
+
+.table {
+  border: solid 1.5px #eeeeee !important;
+}
+
+.dt-global-filter .form-control.input-sm {
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+}
+
+.form-control.input-sm {
+  background-image: url(https://www.w3schools.com/css/searchicon.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-right: 4px;
+}
+
+svg g g g g g g text {
+  text-transform: uppercase;
+}
+
+#chart-id-31
+  > div
+  > div
+  > svg
+  > g
+  > g
+  > g.nv-controlsWrap.nvd3-svg
+  > g
+  > g
+  > g:nth-child(1) {
+  transform: translate(-19.658203125px, 5px);
+}
+
+#chart-id-31
+  > div
+  > div
+  > svg
+  > g
+  > g
+  > g.nv-controlsWrap.nvd3-svg
+  > g
+  > g
+  > g:nth-child(2) {
+  transform: translate(71.01953125px, 5px);
+}
+
+/* Hide Button */
+/* .css-aq28hv.btn.btn-sm.btn-primary {
+  display: none;
+} */
+
+/* .Select__control.css-b4vk9g-control-DEFAULT_STYLES {
+  text-align: center;
+  padding: 0.35em 0.8em;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  width: 100%;
+  height: 48px;
+  border: none;
+  background: #f5f5f5;
+  border-radius: 4px;
+  margin: 08px 0px;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #757575 !important;
+  margin-top: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(240, 240, 240);
+  border-color: rgb(178, 178, 178);
+}
+
+*/
+.Select__control.css-b4vk9g-control-DEFAULT_STYLES:after {
+  font-family: fontAwesome;
+  content: "\00a0\00a0\00a0\00a0\f078";
+  color: #757575;
+}
+
+.fa.fa-caret-down {
+  display: none;
+}
+
+.control-label {
+  display: none !important;
+}
+
+table tbody tr td {
+  vertical-align: middle !important;
+}
+
+.Select__indicator.Select__dropdown-indicator.css-1lwklm9-indicatorContainer {
+  display: none;
+}
+
+.fa.fa-caret-down {
+  display: none !important;
+}
+
+.editable-title input[value="Trend of GMV and Transactions"],
+.editable-title input[value="User Information"],
+.editable-title input[value="Tabular Data"],
+.editable-title input[value="Balance"],
+.editable-title input[value="KYC Tabular Data"] {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #121d2d !important;
+}
+
+.legendWrap.nvd3-svg {
+  transform: translate(-462px, -30px);
+}
+
+/* Page Header */
+
+.dashboard-component-header.header-large .editable-title input {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #424242;
+}
+
+.chart-header .header .editable-title input[value="Time Range"] {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #424242;
+}
+
+.input-inline
+  .dropdown.input-group-btn.input-group-btn-sm
+  .dropdown-toggle.btn.btn-sm.btn-default {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.slice-header-controls-trigger.dropdown-toggle.btn.btn-default {
+  margin: 0;
+  border: 1px solid #e0e0e0 !important;
+  margin-right: 24px;
+  height: 40px;
+  width: 40px;
+}
+
+.dropdown.btn-group {
+  top: 0;
+}
+
+/* .vertical-dots-container .dot */
+/* .vertical-dots-container {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+} */
+
+/* .dropdown.btn-group {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  display: flex;
+  width: 40px;
+  height: 40px;
+} */
+
+.slice-header-controls-trigger.dropdown-toggle.btn.btn-default {
+  margin-right: 19px;
+}
+
+.nvd3 text {
+  font: normal normal 500 14px/17px Montserrat, serif !important;
+  color: #757575 !important;
+  margin: 32px 0px !important;
+}
+
+/* .nvd3.nv-legend g {
+  transform: translate(22.26832580566406px, 5px);
+} */
